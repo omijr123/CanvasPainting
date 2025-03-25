@@ -1,5 +1,5 @@
-Canvas Painting App - Android
-This Android application allows users to create and save custom canvas paintings. The app provides a digital canvas where users can draw freely, select different colors for drawing, and erase their creations. It also features the ability to select a color for drawing (e.g., red, blue, yellow, black) and save the artwork to the phone's gallery in either JPG or PNG format.
+# CanvasPainting - Android
+This Canvas Painting Android application allows users to create and save custom canvas paintings. The app provides a digital canvas where users can draw freely, select different colors for drawing, and erase their creations. It also features the ability to select a color for drawing (e.g., red, blue, yellow, black) and save the artwork to the phone's gallery in either JPG or PNG format.
 
 Features
 🎨 Drawing Canvas: Draw freely on a blank canvas with smooth stroke rendering
