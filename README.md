@@ -42,7 +42,7 @@ Tap the "Save" button to save your artwork to the gallery.
 
 Installation:
 Clone the repository:
-git clone https://github.com/yourusername/CanvasPainting.git
+git clone https://github.com/omijr123/CanvasPainting/tree/master
 
 Open the project in Android Studio.
 
