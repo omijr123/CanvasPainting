@@ -1,74 +1,52 @@
+# CanvasPainting - Android
+This Canvas Painting Android application allows users to create and save custom canvas paintings. The app provides a digital canvas where users can draw freely, select different colors for drawing, and erase their creations. It also features the ability to select a color for drawing (e.g., red, blue, yellow, black) and save the artwork to the phone's gallery in either JPG or PNG format.
 
-# 🎨 **CanvasPaintaing**  
-*Digital Art Studio for Android | Java + Canvas API*  
+Features
+🎨 Drawing Canvas: Draw freely on a blank canvas with smooth stroke rendering
 
----
+🧽 Erase Mode: Toggle between drawing and erasing with a single tap
 
-## 🚀 **Key Features**  
-✅ **Advanced Drawing Tools**  
-- Smooth stroke rendering (5px default brush)  
-- Multi-color palette: 🔴 Red | 🔵 Blue | 🟡 Yellow | ⚫ Black  
-- Pressure-sensitive drawing (beta)  
+💾 Save Artwork: Save your creations to device storage in PNG format
 
-✅ **Creative Toolkit**  
-```diff  
-+ Erase Mode: Toggle with 1 tap  
-+ PNG/JPG Export: Gallery-ready saves  
-+ Undo/Redo: Last 5 actions  
-```  
+✏️ Text Selection: Placeholder for future text addition functionality (currently shows toast)
 
-✅ **Coming Soon**  
-✏️ Text Tool (Placeholder implemented)  
-🖌️ Custom Brush Sizes  
-🌈 Color Picker Wheel  
+📱 Responsive Design: Works on various screen sizes and orientations
 
----
+Freehand Drawing: Draw on a blank canvas with a customizable brush color and size.
 
-## ⚙️ **Technical Highlights**  
-**Core Architecture**  
-```java  
-public class DrawingView extends View {
-    private Path drawPath;
-    private Paint canvasPaint;
-    private Canvas drawCanvas;
-}
-```  
-**Bitmap Handling**  
-`Bitmap.Config.ARGB_8888` | `Canvas.save()` | `MediaStore.Images.Media`  
+Color Picker: Select from multiple colors for drawing (Red, Blue, Yellow, Black, etc.).
 
----
+Erase Functionality: Erase drawn content and start over with ease.
 
-## 🛠️ **Tech Stack**  
-`Android Studio` | `Java 11` | `Canvas API` | `Bitmap` | `MediaStore`  
+Save to Gallery: Save your creations as PNG or JPG images directly to the device's gallery.
 
----
+User-Friendly Interface: Simple, intuitive design for a seamless drawing experience.
 
-## 📱 **UI/UX Breakdown**  
-| **Component**       | **Functionality**                  |  
-|----------------------|------------------------------------|  
-| Canvas Area          | 1080p drawing surface             |  
-| Toolbar              | Color picker · Erase · Save        |  
-| Status Panel         | Brush size · Active color          |  
+Technology Stack:
+Android Studio (Java)
 
----
+Canvas API: Custom DrawingView for drawing and managing canvas
 
-## 📸 **Screenshot**  
-![Canvas Interface](https://github.com/user-attachments/assets/64b02e71-34f3-4fce-8402-30bf5f15ed50)  
-*Current prototype interface showing drawing tools*
+Bitmap Handling: Saving drawings in JPG/PNG formats
 
----
+How to Use:
+Launch the app on your Android device.
 
-## 🧠 **Smart Features**  
-🔹 Auto-save draft every 2 minutes  
-🔹 Export optimization (90% quality retention)  
-🔹 Memory management (≤15MB RAM usage)  
+Use the drawing tools to create your masterpiece on the canvas.
 
----
+Tap the "Text Color" button to choose a drawing color.
 
-## ⚡ **Installation**  
-```bash  
-git clone https://github.com/omijr123/CanvasPainting/tree/master  
-# Open in Android Studio (2023.1+ recommended)  
-# Build → Run on API 34+ device/emulator  
-```
+Tap the "Erase" button to clear the canvas.
 
+Tap the "Save" button to save your artwork to the gallery.
+
+Installation:
+Clone the repository:
+git clone https://github.com/omijr123/CanvasPainting/tree/master
+
+Open the project in Android Studio.
+
+Build and run the app on a physical device or emulator.
+
+
+![pic1](https://github.com/user-attachments/assets/64b02e71-34f3-4fce-8402-30bf5f15ed50)
