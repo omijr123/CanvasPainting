@@ -49,5 +49,6 @@ Open the project in Android Studio.
 Build and run the app on a physical device or emulator.
 
 
-![pic1](https://github.com/user-attachments/assets/64b02e71-34f3-4fce-8402-30bf5f15ed50)
+![pic1](https://github.com/user-attachments/assets/e33ff6fd-2b75-4625-92fa-dab5fc900f1b)
+
 
