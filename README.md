@@ -1,148 +1,52 @@
-# CanvasPainting - Android Drawing App
+# CanvasPainting - Android
+This Canvas Painting Android application allows users to create and save custom canvas paintings. The app provides a digital canvas where users can draw freely, select different colors for drawing, and erase their creations. It also features the ability to select a color for drawing (e.g., red, blue, yellow, black) and save the artwork to the phone's gallery in either JPG or PNG format.
 
-![CanvasPainting Banner](https://github.com/user-attachments/assets/64b02e71-34f3-4fce-8402-30bff15ed50)
+Features
+🎨 Drawing Canvas: Draw freely on a blank canvas with smooth stroke rendering
 
-A feature-rich Android drawing application that provides a digital canvas for creating and saving custom artwork with an intuitive interface.
+🧽 Erase Mode: Toggle between drawing and erasing with a single tap
 
-## ✨ Features
+💾 Save Artwork: Save your creations to device storage in PNG format
 
-### 🎨 Drawing Tools
-- **Freehand Drawing**: Draw smoothly on a blank canvas with customizable brush
-- **Multiple Colors**: Choose from preset colors (Red, Blue, Yellow, Black, and more)
-- **Eraser Function**: Toggle between drawing and erasing modes
-- **Brush Size Control**: Adjustable brush thickness for detailed artwork
+✏️ Text Selection: Placeholder for future text addition functionality (currently shows toast)
 
-### 💾 Save & Export
-- **Gallery Saving**: Save creations directly to device storage
-- **Multiple Formats**: Export artwork as PNG or JPG
-- **High-Quality Output**: Maintains drawing quality when saving
+📱 Responsive Design: Works on various screen sizes and orientations
 
-### 🖌️ User Experience
-- **Intuitive Interface**: Simple and clean design for all skill levels
-- **Responsive Canvas**: Works seamlessly on various screen sizes
-- **Real-time Preview**: See your artwork come to life as you draw
+Freehand Drawing: Draw on a blank canvas with a customizable brush color and size.
 
-## 📱 Screenshots
+Color Picker: Select from multiple colors for drawing (Red, Blue, Yellow, Black, etc.).
 
-![App Screenshot](https://github.com/user-attachments/assets/64b02e71-34f3-4fce-8402-30bff15ed50)
+Erase Functionality: Erase drawn content and start over with ease.
 
-## 🛠️ Technology Stack
+Save to Gallery: Save your creations as PNG or JPG images directly to the device's gallery.
 
-- **Platform**: Android
-- **Language**: Java
-- **Development Environment**: Android Studio
-- **Core APIs**: 
-  - Canvas API for custom drawing
-  - Bitmap handling for image processing
-  - Storage Access Framework for saving files
+User-Friendly Interface: Simple, intuitive design for a seamless drawing experience.
 
-## 🚀 Getting Started
+Technology Stack:
+Android Studio (Java)
 
-### Prerequisites
-- Android Studio (latest version recommended)
-- Android device/emulator with API level 21+
-- Storage permission for saving artwork
+Canvas API: Custom DrawingView for drawing and managing canvas
 
-### Installation
+Bitmap Handling: Saving drawings in JPG/PNG formats
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/omijr123/CanvasPainting.git
-   ```
+How to Use:
+Launch the app on your Android device.
 
-2. **Open in Android Studio**
-   - Launch Android Studio
-   - Select "Open an existing project"
-   - Navigate to the cloned repository folder
+Use the drawing tools to create your masterpiece on the canvas.
 
-3. **Build and Run**
-   - Connect an Android device or start an emulator
-   - Click the "Run" button (▶️) in Android Studio
-   - Select your target device
+Tap the "Text Color" button to choose a drawing color.
 
-### Alternative: Direct APK Installation
-Download the latest APK from the [Releases section](https://github.com/omijr123/CanvasPainting/releases) and install it on your Android device.
+Tap the "Erase" button to clear the canvas.
 
-## 📖 How to Use
+Tap the "Save" button to save your artwork to the gallery.
 
-### Basic Drawing
-1. Launch the CanvasPainting app
-2. Use your finger or stylus to draw on the canvas
-3. The app responds to touch movements with smooth stroke rendering
+Installation:
+Clone the repository:
+git clone https://github.com/omijr123/CanvasPainting/tree/master
 
-### Changing Colors
-1. Tap the "Text Color" button
-2. Select your preferred color from the palette
-3. Continue drawing with the new color
+Open the project in Android Studio.
 
-### Erasing
-1. Tap the "Erase" button to switch to eraser mode
-2. Draw over areas you want to remove
-3. Tap "Erase" again to return to drawing mode
+Build and run the app on a physical device or emulator.
 
-### Saving Artwork
-1. Tap the "Save" button
-2. Choose your preferred format (PNG or JPG)
-3. The artwork will be saved to your device's gallery
-4. You'll receive a confirmation message once saved
 
-## 🗂️ Project Structure
-
-```
-CanvasPainting/
-├── app/
-│   ├── src/main/
-│   │   ├── java/com/example/canvaspainting/
-│   │   │   ├── MainActivity.java      # Main activity controller
-│   │   │   └── DrawingView.java       # Custom view for canvas drawing
-│   │   └── res/
-│   │       ├── layout/                # UI layouts
-│   │       ├── drawable/              # App icons and graphics
-│   │       └── values/                # Colors, strings, styles
-├── build.gradle                       # Project dependencies
-└── README.md                         # This file
-```
-
-## 🔧 Key Components
-
-### DrawingView Class
-- Handles all touch events for drawing
-- Manages paint properties (color, stroke width)
-- Implements canvas drawing logic
-- Supports both drawing and erasing modes
-
-### MainActivity
-- Manages UI components and button interactions
-- Handles permission requests for storage
-- Coordinates between drawing view and user actions
-- Manages image saving functionality
-
-## 📝 Future Enhancements
-
-- [ ] Text tool for adding captions
-- [ ] Undo/Redo functionality
-- [ ] Brush customization (patterns, textures)
-- [ ] Layer support
-- [ ] Color picker with custom color selection
-- [ ] Share directly to social media
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Android Canvas API documentation
-- Open-source community for inspiration
-- All contributors and testers
-
+![pic1](https://github.com/user-attachments/assets/64b02e71-34f3-4fce-8402-30bf5f15ed50)
